@@ -1,9 +1,9 @@
 {
-  "name": "rosswood-frontend",
+  "name": "vista-frontend",
   "authors": [
     "Azam <azam@it-mateweb.com.au>"
   ],
-  "description": "rosswood front-end template",
+  "description": "vista front-end template",
   "main": "",
   "license": "MIT",
   "homepage": "",

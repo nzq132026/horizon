@@ -7,7 +7,7 @@ namespace vista\theme\actions
 
     function wp_enqueue_scripts()
     {
-        wp_enqueue_style( 'fonts', 'https://fonts.googleapis.com/css?family=Nunito+Sans:300,400|Scope+One');
+        wp_enqueue_style( 'fonts', 'https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:400,500,600');
         wp_enqueue_style( 'main-style', get_template_directory_uri() . '/assets/dist/css/main.css');
         wp_enqueue_script(
             'main',

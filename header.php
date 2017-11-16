@@ -13,31 +13,29 @@
 <div id="page" class="site">
 
     <header id="masthead" class="site-header" role="banner">
-        <section class="banner">
-            <!-- Navigation -->
-            <nav class="navbar navbar-default">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class=icon-bar></span>
-                    <span class=icon-bar></span>
-                    <span class=icon-bar></span>
-                </button>
-                <div class="navbar-header">
-                    <a href="#"><img src="<?php the_field("logo_image"); ?>" alt="logo image"></a>
-                </div>
-                <div class="navbar-collapse collapse" id="navbarResponsive">
-                                    <?php wp_nav_menu(array(
-                                        'container' => false,
-                                        'theme_location' => 'header',
-                                        'menu_class' => 'nav navbar-nav dropdown navbar-right',
-                                        'walker' => new \vista\theme\MW_Walker_Nav_Menu()
-                                    )
-                            );
-                        ?>
-                </div>
-            </nav>
-            <!-- Navigation Ends -->
-        </section>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class=icon-bar></span>
+                <span class=icon-bar></span>
+                <span class=icon-bar></span>
+            </button>
+            <div class="navbar-header">
+                <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header_logo.png" alt="logo image"></a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+                                <?php wp_nav_menu(array(
+                                    'container' => false,
+                                    'theme_location' => 'header',
+                                    'menu_class' => 'nav navbar-nav dropdown navbar-right',
+                                    'walker' => new \vista\theme\MW_Walker_Nav_Menu()
+                                )
+                        );
+                    ?>
+            </div>
+        </nav>
+        <!-- Navigation Ends -->
     </header><!-- #masthead -->
 
     <div class="site-content-contain">
