@@ -1,0 +1,40 @@
+//Functions
+
+// Variables
+$brand-primary:             #00aced;//light blue
+$brand-secondary:           #72abb2;//greenish
+$brand-gray:                #4a4a4a;
+
+//Text
+$font-family-sans-serif:    'Arimo', sans-serif;
+$text-color:                $brand-gray;
+$font-size-base:            16px;
+$browser-context:           $font-size-base;
+$font-size-h2:              em(34);
+$font-size-h4:              em(20);
+$font-size-h5:              em(18);
+
+$headings-font-family:      'Trirong', serif;
+$headings-font-weight:      300;
+
+//Links
+$link-color:                $brand-gray;
+$link-hover-color:          $brand-primary;
+$link-hover-decoration:     none;
+
+//Responsive break points
+$menu-break:                1020px; //Must match the breakpoint in js file
+$grid-float-breakpoint:     $menu-break;
+$md-break:                  1200px;
+$mmd-break:                 992px;
+$sm-break:                  767px;
+$mobile-break:              640px;
+$sm-mobile-break:           420px;
+
+//BOOTSTRAP
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+
+
+// Template partials
+@import "site-header";
+@import "menu";
