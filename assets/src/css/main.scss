@@ -1,4 +1,5 @@
 //Functions
+@import "functions";
 
 // Variables
 $brand-primary:             #00aced;//light blue
@@ -6,7 +7,7 @@ $brand-secondary:           #72abb2;//greenish
 $brand-gray:                #4a4a4a;
 
 //Text
-$font-family-sans-serif:    'Arimo', sans-serif;
+$font-family-sans-serif:    'Encode Sans Semi Condensed', sans-serif;
 $text-color:                $brand-gray;
 $font-size-base:            16px;
 $browser-context:           $font-size-base;
@@ -14,8 +15,8 @@ $font-size-h2:              em(34);
 $font-size-h4:              em(20);
 $font-size-h5:              em(18);
 
-$headings-font-family:      'Trirong', serif;
-$headings-font-weight:      300;
+$headings-font-family:      'Encode Sans Semi Condensed', sans-serif;
+$headings-font-weight:      600;
 
 //Links
 $link-color:                $brand-gray;
@@ -34,7 +35,7 @@ $sm-mobile-break:           420px;
 //BOOTSTRAP
 @import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 
-
 // Template partials
 @import "site-header";
 @import "menu";
+
