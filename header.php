@@ -23,7 +23,7 @@
                     <span class=icon-bar></span>
                 </button>
                 <div class="navbar-header">
-                    <a href="#"><img src="<?php the_field("logo_image"); ?>" alt="logo image"></a>
+                    <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header_logo.png" alt="logo image"></a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbarResponsive">
                                     <?php wp_nav_menu(array(
