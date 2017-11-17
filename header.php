@@ -26,10 +26,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <div class="row brand">     
-                    <div class="col-lg-4 col-md-4 col-sm-4 pull-left">
+                    <div class="col-md-6 pull-left">
                         <p><strong>VISTA SECURITY SOLUTIONS</strong></p>
                     </div>
-                    <div class="col-lg-3 col-lg-offset-4 col-md-3 col-md-offset-2 col-sm-3 text-right">
+                    <div class="col-lg-5 col-md-4 text-right">
                         <p><strong><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ic_call_black_24px.png">0414 266 788</strong></p>
                     </div>
                 </div>

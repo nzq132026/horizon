@@ -11,13 +11,13 @@
     border-top: 5px solid #2baeec;
 
     .navbar-brand{
-        height: 100px;
+        padding:10px;
+        height:100px;
     }
 
     .brand{
         padding-top:10px;
         height:45px;
-        //border-bottom:1px solid #2baeec;
 
         @media (max-width: $mmd-break){
             display: none;
