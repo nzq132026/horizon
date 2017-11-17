@@ -1,0 +1,34 @@
+.packages{
+    
+    .row{
+        margin-top: 30px;
+        height: 295px;
+
+        .pack{
+            text-align: center;
+            &:hover{
+
+                img{
+                    background-color: #5392aa;
+                    transition: 0.5s;
+                }   
+            }
+
+            .pack-desc{
+                color: #fff;
+                margin: auto;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: #00aeef;
+                p{
+                    margin: auto;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+        }
+        img{
+            background-color: #e9f6fb;
+        }
+    }
+}

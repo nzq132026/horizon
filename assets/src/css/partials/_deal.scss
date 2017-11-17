@@ -1,0 +1,36 @@
+.deals{
+	.title{
+		margin-top: 10px;
+		margin-bottom: -15px;
+		font-size: 24px;
+	}
+	.deal{
+		text-align:center;
+		margin-top:30px;
+		background-color: #e9f6fb;
+
+		&:hover{
+	        	background-color: #728b94;
+	        	transition: 0.5s;
+	        	p{
+	        		color: #fff;
+	        	}
+	   	}
+
+		.deal-desc{
+			margin:auto;
+			padding-bottom: 15px;
+		}
+		.deal-price{
+			background-color: #ea6262;
+			padding-top:10px;
+			padding-bottom:10px;
+			color: #fff;
+		}
+		p{
+			font-size: 16px;
+		}
+	} 
+}
+
+

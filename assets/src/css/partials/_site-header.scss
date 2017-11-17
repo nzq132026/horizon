@@ -1,10 +1,6 @@
 .site-header{
     width: 100%;
-    padding-left: 47px;
-    padding-right: 47px;
-    padding-top: 30px;
     height: 120px;
-    position: fixed;
     z-index: 1000;
     -webkit-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
@@ -12,8 +8,38 @@
     transition-duration: 0.5s;
     -webkit-transition-property: all;
     transition-property: all;
+    border-top: 5px solid #2baeec;
     
+    .navbar-brand{
+        height: 100px;
+    }
 
+    .brand{
+        padding-top:10px;
+        height:45px;
+        //border-bottom:1px solid #2baeec;
+        p{
+            font-size: 24px;
+            margin:0;
+            color: #2baeec;
+        }
+
+    }
+    .navbar{
+        background-color: #e9f6fb;
+        border-bottom: none;
+    }
+
+    .navbar-default .navbar-nav{
+
+        li{
+            font-size: 16px;
+            a{
+                color: #2baeec;
+            }
+        }
+
+    }
     @media screen and (max-width: $sm-break){
         padding-left: 15px;
         padding-right: 15px;

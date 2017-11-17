@@ -8367,11 +8367,7 @@ button.close {
 
 .site-header {
   width: 100%;
-  padding-left: 47px;
-  padding-right: 47px;
-  padding-top: 30px;
   height: 120px;
-  position: fixed;
   z-index: 1000;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
@@ -8379,6 +8375,35 @@ button.close {
   transition-duration: 0.5s;
   -webkit-transition-property: all;
   transition-property: all;
+  border-top: 5px solid #2baeec;
+}
+
+.site-header .navbar-brand {
+  height: 100px;
+}
+
+.site-header .brand {
+  padding-top: 10px;
+  height: 45px;
+}
+
+.site-header .brand p {
+  font-size: 24px;
+  margin: 0;
+  color: #2baeec;
+}
+
+.site-header .navbar {
+  background-color: #e9f6fb;
+  border-bottom: none;
+}
+
+.site-header .navbar-default .navbar-nav li {
+  font-size: 16px;
+}
+
+.site-header .navbar-default .navbar-nav li a {
+  color: #2baeec;
 }
 
 @media screen and (max-width: 767px) {
@@ -8473,4 +8498,122 @@ button.close {
 
 .site-header .primary-menu a:hover {
   background: transparent;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro .hero {
+  background-image: url("../../images/hero_bg.png");
+  height: 420px;
+}
+
+.intro .slogan {
+  padding-top: 10%;
+  padding-bottom: 3%;
+  margin: auto;
+}
+
+.intro .slogan p {
+  color: #fff;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.intro .btn-primary {
+  width: 180px;
+}
+
+.packages .row {
+  margin-top: 30px;
+  height: 295px;
+}
+
+.packages .row .pack {
+  text-align: center;
+}
+
+.packages .row .pack:hover img {
+  background-color: #5392aa;
+  transition: 0.5s;
+}
+
+.packages .row .pack .pack-desc {
+  color: #fff;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #00aeef;
+}
+
+.packages .row .pack .pack-desc p {
+  margin: auto;
+  color: #fff;
+  font-size: 16px;
+}
+
+.packages .row img {
+  background-color: #e9f6fb;
+}
+
+.deals .title {
+  margin-top: 10px;
+  margin-bottom: -15px;
+  font-size: 24px;
+}
+
+.deals .deal {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #e9f6fb;
+}
+
+.deals .deal:hover {
+  background-color: #728b94;
+  transition: 0.5s;
+}
+
+.deals .deal:hover p {
+  color: #fff;
+}
+
+.deals .deal .deal-desc {
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.deals .deal .deal-price {
+  background-color: #ea6262;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.deals .deal p {
+  font-size: 16px;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.about .title {
+  font-size: 24px;
+}
+
+.about p {
+  font-size: 15px;
+}
+
+.about .contact {
+  list-style-image: url("../../images/Vector Smart Object.png");
+}
+
+.about .contact li {
+  line-height: 35px;
+}
+
+.about .contact li a {
+  color: #439ac9;
 }
