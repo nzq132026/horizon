@@ -9,7 +9,7 @@
     -webkit-transition-property: all;
     transition-property: all;
     border-top: 5px solid #2baeec;
-    
+
     .navbar-brand{
         height: 100px;
     }
@@ -18,6 +18,10 @@
         padding-top:10px;
         height:45px;
         //border-bottom:1px solid #2baeec;
+        img{
+            padding-right:10px;
+            height:24px;
+        }
         p{
             font-size: 24px;
             margin:0;

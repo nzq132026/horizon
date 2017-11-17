@@ -1,0 +1,22 @@
+.footer{
+	border-top: 2px solid #2baeec;
+}
+.footer{
+	background-color: #e9f6fb;
+	padding-bottom:10px;
+
+	.footer-link{
+		list-style-type: none;
+		padding-top:40px;
+		padding-bottom:10px;
+
+		li{
+			display: inline-block;
+			margin:0px;
+			padding-right: 30px;
+			a{
+				color:#2baeec;
+			}
+		}
+	}
+}

@@ -30,7 +30,7 @@
                         <p><strong>VISTA SECURITY SOLUTIONS</strong></p>
                     </div>
                     <div class="col-lg-3 col-lg-offset-4 col-md-3 col-md-offset-2 col-sm-3 text-right">
-                        <p><strong>0414 266 788</strong></p>
+                        <p><strong><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ic_call_black_24px.png">0414 266 788</strong></p>
                     </div>
                 </div>
                   <ul class="nav navbar-nav">

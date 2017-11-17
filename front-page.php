@@ -17,7 +17,7 @@
     <section class="packages">
      <div class="row">
       <a href="#">
-         <div class="col-lg-6 col-md-6">
+         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="pack">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/CCTV Packages.png">
             <p class="pack-desc">CCTV Packages</p>
@@ -25,7 +25,7 @@
         </div>
       </a>
       <a href="#">
-         <div class="col-lg-6 col-md-6">
+         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="pack">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/Alarm Packages.png">
             <p class="pack-desc">Alarm Packages</p>

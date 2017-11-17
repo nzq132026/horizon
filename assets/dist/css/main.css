@@ -8387,6 +8387,11 @@ button.close {
   height: 45px;
 }
 
+.site-header .brand img {
+  padding-right: 10px;
+  height: 24px;
+}
+
 .site-header .brand p {
   font-size: 24px;
   margin: 0;
@@ -8526,20 +8531,21 @@ button.close {
 }
 
 .packages .row {
-  margin-top: 30px;
   height: 295px;
 }
 
 .packages .row .pack {
+  margin-top: 30px;
   text-align: center;
+  background-color: #e9f6fb;
 }
 
-.packages .row .pack:hover img {
+.packages .row .pack:hover {
   background-color: #5392aa;
   transition: 0.5s;
 }
 
-.packages .row .pack .pack-desc {
+.packages .row .pack-desc {
   color: #fff;
   margin: auto;
   padding-top: 15px;
@@ -8547,14 +8553,10 @@ button.close {
   background-color: #00aeef;
 }
 
-.packages .row .pack .pack-desc p {
+.packages .row .pack-desc p {
   margin: auto;
   color: #fff;
   font-size: 16px;
-}
-
-.packages .row img {
-  background-color: #e9f6fb;
 }
 
 .deals .title {
@@ -8596,6 +8598,7 @@ button.close {
 
 .about {
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .about .title {
@@ -8616,4 +8619,29 @@ button.close {
 
 .about .contact li a {
   color: #439ac9;
+}
+
+.footer {
+  border-top: 2px solid #2baeec;
+}
+
+.footer {
+  background-color: #e9f6fb;
+  padding-bottom: 10px;
+}
+
+.footer .footer-link {
+  list-style-type: none;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.footer .footer-link li {
+  display: inline-block;
+  margin: 0px;
+  padding-right: 30px;
+}
+
+.footer .footer-link li a {
+  color: #2baeec;
 }
