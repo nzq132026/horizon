@@ -1,0 +1,109 @@
+.site-header{
+    width: 100%;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 30px;
+    height: 120px;
+    position: fixed;
+    z-index: 1000;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: all;
+    transition-property: all;
+
+
+    @media screen and (max-width: $sm-break){
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media screen and (max-width: $mobile-break){
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        height: 90px;
+    }
+
+    &.sticked{
+        background: rgba(255,255,255,0.9);
+        padding-top: 0px;
+        height: 55px;
+        
+        .wrpr{
+            border-bottom: 0;
+        }
+
+        .primary-menu{
+            a{
+                color: $brand-gray;
+
+                &:hover{
+                    color: $brand-primary;
+                }
+            }
+        }
+
+        .navbar-toggle .icon-bar{
+            background: $brand-primary;
+        }
+
+        .logo{
+            > a {
+                > svg{
+                    .st0{
+                        fill: $brand-primary;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .wrpr{
+        border-bottom: 1px solid #FFF;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .logo{
+        float: left;
+        margin-top: 14.5px;
+        > a{
+            display: block;
+            > svg{
+                width: 253px;
+                @media screen and (max-width: $mobile-break){
+                    width: 225px;
+                }
+                @media screen and (max-width: 360px){
+                    width: 205px;
+                }
+            }
+        }
+    }
+
+    .navbar-collapse{
+        background: transparent;
+        @media screen and (max-width: $menu-break){
+            background: rgba(255, 255, 255, 0.9);
+        }
+    }
+
+    .primary-menu{
+        a{
+            font-size: em(15);
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #FFF;
+
+            &:hover{
+                background: transparent;
+            }
+
+        }
+
+    }
+
+}
