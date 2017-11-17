@@ -4,6 +4,7 @@
 // Variables
 $brand-primary:             #00aced;//light blue
 $brand-secondary:           #72abb2;//greenish
+$light-blue:                #e9f6fb;
 $brand-gray:                #4a4a4a;
 
 //Text
@@ -42,4 +43,5 @@ $sm-mobile-break:           420px;
 @import "deal";
 @import "about";
 @import "footer";
+@import "common";
 

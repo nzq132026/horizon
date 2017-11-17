@@ -16,22 +16,25 @@
 
     <section class="packages">
      <div class="row">
-      <a href="#">
-         <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="pack">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/CCTV Packages.png">
-            <p class="pack-desc">CCTV Packages</p>
-          </div>
+        <div class="col-sm-6 col-xs-12">
+            <a href="#">
+                <div class="pack">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/CCTV Packages.png">
+                <p class="pack-desc">CCTV Packages</p>
+                </div>
+            </a>
         </div>
-      </a>
-      <a href="#">
-         <div class="col-lg-6 col-md-6 col-sm-12">
+      
+      
+    <div class="col-sm-6 col-xs-12">
+        <a href="#">
           <div class="pack">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/Alarm Packages.png">
             <p class="pack-desc">Alarm Packages</p>
           </div>
-        </div>
-      </a>
+        </a>
+    </div>
+      
 
     </div>
   </section>

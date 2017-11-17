@@ -1,29 +1,23 @@
 .packages{
     
-    .row{
-        height: 295px;
-
-        .pack{
-            margin-top: 30px;
-            text-align: center;
-            background-color: #e9f6fb;
-            &:hover{
-                background-color: #5392aa;
-                transition: 0.5s;
-            }  
-        }
-
-            .pack-desc{
-                color: #fff;
-                margin: auto;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                background-color: #00aeef;
-                p{
-                    margin: auto;
-                    color: #fff;
-                    font-size: 16px;
-                }
-            }
+    .pack{
+        margin-top: 30px;
+        text-align: center;
+        background-color: #e9f6fb;
+        &:hover{
+            background-color: $brand-secondary;
+            transition: 0.5s;
+        }  
     }
+
+    .pack-desc{
+        color: #fff;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #00aeef;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
 }

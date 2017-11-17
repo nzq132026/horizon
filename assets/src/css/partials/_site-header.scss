@@ -18,6 +18,11 @@
         padding-top:10px;
         height:45px;
         //border-bottom:1px solid #2baeec;
+
+        @media (max-width: $mmd-break){
+            display: none;
+        }
+
         img{
             padding-right:10px;
             height:24px;
@@ -39,7 +44,8 @@
         li{
             font-size: 16px;
             a{
-                color: #2baeec;
+                color: $brand-primary;
+                font-weight: 600;
             }
         }
 
@@ -52,7 +58,6 @@
     @media screen and (max-width: $mobile-break){
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 15px;
         height: 90px;
     }
 
@@ -115,9 +120,9 @@
     }
 
     .navbar-collapse{
-        background: transparent;
+        background: $light-blue;
         @media screen and (max-width: $menu-break){
-            background: rgba(255, 255, 255, 0.9);
+            background: $light-blue;
         }
     }
 

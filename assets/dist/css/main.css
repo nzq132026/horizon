@@ -8387,6 +8387,12 @@ button.close {
   height: 45px;
 }
 
+@media (max-width: 992px) {
+  .site-header .brand {
+    display: none;
+  }
+}
+
 .site-header .brand img {
   padding-right: 10px;
   height: 24px;
@@ -8408,7 +8414,8 @@ button.close {
 }
 
 .site-header .navbar-default .navbar-nav li a {
-  color: #2baeec;
+  color: #00aced;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {
@@ -8422,7 +8429,6 @@ button.close {
   .site-header {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 15px;
     height: 90px;
   }
 }
@@ -8485,12 +8491,12 @@ button.close {
 }
 
 .site-header .navbar-collapse {
-  background: transparent;
+  background: #e9f6fb;
 }
 
 @media screen and (max-width: 1020px) {
   .site-header .navbar-collapse {
-    background: rgba(255, 255, 255, 0.9);
+    background: #e9f6fb;
   }
 }
 
@@ -8512,6 +8518,8 @@ button.close {
 .intro .hero {
   background-image: url("../../images/hero_bg.png");
   height: 420px;
+  background-size: cover;
+  background-position: center;
 }
 
 .intro .slogan {
@@ -8530,33 +8538,25 @@ button.close {
   width: 180px;
 }
 
-.packages .row {
-  height: 295px;
-}
-
-.packages .row .pack {
+.packages .pack {
   margin-top: 30px;
   text-align: center;
   background-color: #e9f6fb;
 }
 
-.packages .row .pack:hover {
-  background-color: #5392aa;
+.packages .pack:hover {
+  background-color: #72abb2;
   transition: 0.5s;
 }
 
-.packages .row .pack-desc {
+.packages .pack-desc {
   color: #fff;
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #00aeef;
-}
-
-.packages .row .pack-desc p {
-  margin: auto;
-  color: #fff;
-  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .deals .title {
@@ -8644,4 +8644,8 @@ button.close {
 
 .footer .footer-link li a {
   color: #2baeec;
+}
+
+img {
+  max-width: 100%;
 }
