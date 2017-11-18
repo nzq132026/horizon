@@ -1,8 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "vistsa",
   "version": "1.0.0",
   "description": "<vista></vista> public website",
   "private": true,
+=======
+  "name": "rosswoos",
+  "version": "1.0.0",
+  "description": "rosswoos public website",
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +18,10 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+<<<<<<< HEAD
     "gulp-import-css": "^0.1.3",
+=======
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.0",

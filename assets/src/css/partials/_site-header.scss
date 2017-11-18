@@ -1,6 +1,14 @@
 .site-header{
     width: 100%;
+<<<<<<< HEAD
     height: 120px;
+=======
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 30px;
+    height: 120px;
+    position: fixed;
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
     z-index: 1000;
     -webkit-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
@@ -8,6 +16,7 @@
     transition-duration: 0.5s;
     -webkit-transition-property: all;
     transition-property: all;
+<<<<<<< HEAD
     border-top: 5px solid #2baeec;
 
     .navbar-brand{
@@ -50,6 +59,10 @@
         }
 
     }
+=======
+
+
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
     @media screen and (max-width: $sm-break){
         padding-left: 15px;
         padding-right: 15px;
@@ -58,6 +71,10 @@
     @media screen and (max-width: $mobile-break){
         padding-left: 15px;
         padding-right: 15px;
+<<<<<<< HEAD
+=======
+        padding-top: 15px;
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
         height: 90px;
     }
 
@@ -120,9 +137,15 @@
     }
 
     .navbar-collapse{
+<<<<<<< HEAD
         background: $light-blue;
         @media screen and (max-width: $menu-break){
             background: $light-blue;
+=======
+        background: transparent;
+        @media screen and (max-width: $menu-break){
+            background: rgba(255, 255, 255, 0.9);
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
         }
     }
 
@@ -141,4 +164,8 @@
 
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d

@@ -1,14 +1,24 @@
 //Functions
+<<<<<<< HEAD
 @import "functions";
+=======
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
 
 // Variables
 $brand-primary:             #00aced;//light blue
 $brand-secondary:           #72abb2;//greenish
+<<<<<<< HEAD
 $light-blue:                #e9f6fb;
 $brand-gray:                #4a4a4a;
 
 //Text
 $font-family-sans-serif:    'Encode Sans Semi Condensed', sans-serif;
+=======
+$brand-gray:                #4a4a4a;
+
+//Text
+$font-family-sans-serif:    'Arimo', sans-serif;
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
 $text-color:                $brand-gray;
 $font-size-base:            16px;
 $browser-context:           $font-size-base;
@@ -16,8 +26,13 @@ $font-size-h2:              em(34);
 $font-size-h4:              em(20);
 $font-size-h5:              em(18);
 
+<<<<<<< HEAD
 $headings-font-family:      'Encode Sans Semi Condensed', sans-serif;
 $headings-font-weight:      600;
+=======
+$headings-font-family:      'Trirong', serif;
+$headings-font-weight:      300;
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
 
 //Links
 $link-color:                $brand-gray;
@@ -36,6 +51,7 @@ $sm-mobile-break:           420px;
 //BOOTSTRAP
 @import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 
+<<<<<<< HEAD
 // Template partials
 @import "site-header";
 @import "intro";
@@ -45,3 +61,9 @@ $sm-mobile-break:           420px;
 @import "footer";
 @import "common";
 
+=======
+
+// Template partials
+@import "site-header";
+@import "menu";
+>>>>>>> d696b30e8eeb0904b9ed24eee61b2f82b219861d
